@@ -35,7 +35,7 @@ const Navbar = (props: Props) => {
           <div className='relative cursor-pointer' onClick={() => setShowProfile(!showProfile)}>
             <img src="user.jpg" className='w-[35px] rounded-full object-cover' />
             <div className={`absolute bg-white z-[2] rounded-lg shadow-lg ${showProfile ? '' : 'hidden'}`}>
-              <Link href='/sign' className='p-1'>SignIn</Link>
+              <Link href='/signin' className='p-1'>SignIn</Link>
             </div>
           </div>
 
